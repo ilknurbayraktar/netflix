@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="netflix.css">
+<title>Document</title>
+</head>
+<body>
+<div id="container">
+    <header id="header">
+    <h1 id="title">NET<span>FLİX</span></h1>
+    <p id="description">Thank you for signing up at Netflix.Tell us more about yourself.</p>
+    </header>
+
+    <section id="survey-form-container">
+<form action="result.html" method="get">
+<div class="box">
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+<div class="box">
+    <label for="age">Age</label><br>
+    <input type="text" id="age" name="age" placeholder="Age">
+    <br>
+</div>
+
+<div class="box">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+</div>
+
+<div class="box">
+    <label for="content">Content type</label>
+    <br>
+    <select name="content" id="dropdown">
+        <option>Series</option>
+    </select>   
+</div>
+
+
+<div class="box" id="checkbox">
+  <label for="">Movie type</label>
+  <br>
+  <input type="checkbox"  id="comedy"name="film_1" value="comedy"><label>
+  <label for="comedy">Comedy</label>
+  <br>
+  <input type="checkbox" id="action" name="film_2" value="action"></label>
+  <label for="">Action</label>
+  <br>
+  <input type="checkbox"  id="romance" name="film_3" value="romance"></label>
+  <label for="romance">Romance</label>
+</div>
+
+<div class="box" id="radio">
+    <label for="">Gender</label>
+    <br>
+    <label for="gender1">
+    <input type="radio" name="cinsiyet" id="gender1" value="Male">Male<label>
+    <br>
+    <label for="gender2">
+    <input type="radio" name="cinsiyet" id="gender2" value="Female">Female<div>
+    <label for="gender3">
+    <input type="radio" name="cinsiyet" id="gender3" value="">Other</label>
+</div>
+<br>
+<div class="box">
+<label for="feedback">Feedback</label>
+    <textarea name="feedback" id="feedback" placeholder="Any comment" style="resize:none;"></textarea>
+</div>  
+
+<div class="form-submit">
+    <button type="submit" id="form-button">Submit</button>
+</div>
+</form>
+</div>
+</section>
+</div>
+</body>
+</html>
+
+
